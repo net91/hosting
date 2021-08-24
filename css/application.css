@@ -868,7 +868,7 @@ a.text-1:hover {
     transform: scale(0.7);
     transform-origin: left center;
     filter: brightness(1);
-    background: url("https://sites.google.com/site/ngodoanduong91/download/logo.png") ;
+    background: url("https://cdn.rawgit.com/net91/hosting/ndd/images/logo.png") ;
 	background-size: 34px 34px;
 }
 .header-navigation {
@@ -1199,7 +1199,7 @@ a.text-1:hover {
     height: 16px;
     margin-left: -35px;
     top: 9px;
-    background: url(https://sites.google.com/site/ngodoanduong91/download/favicon-16x16.png) 0 0px;
+    background: url(https://cdn.rawgit.com/net91/hosting/ndd/images/favicon-16x16.png) 0 0px;
 }
 .footer-about .subline {
     color: rgba(255, 255, 255, 0.4);
@@ -1453,7 +1453,7 @@ a.text-1:hover {
     height: 30px;
     left: 0;
     top: 0;
-    background-image: url("https://sites.google.com/site/ngodoanduong91/download/icons.svg");
+    background-image: url("https://cdn.rawgit.com/net91/hosting/ndd/images/icons.svg");
 }
 .list-icons li a {
     display: inline-block;
@@ -1593,7 +1593,7 @@ img.lazyfade.lazyloaded {
     left: 9px;
     top: 8px;
     transition: 0.2s;
-    background-image: url("https://sites.google.com/site/ngodoanduong91/download/icons.svg");
+    background-image: url("https://cdn.rawgit.com/net91/hosting/ndd/images/icons.svg");
 }
 .social-bar .button:hover {
     background: #2646ff;
@@ -1833,7 +1833,7 @@ body.modal-open {
     cursor: pointer;
     border: none;
     text-indent: -999em;
-    background: url("https://sites.google.com/site/ngodoanduong91/download/home.svg") 0 -785px;
+    background: url("https://cdn.rawgit.com/net91/hosting/ndd/css/home.svg") 0 -785px;
 }
 .featherlight-close:hover {
     opacity: 1;
@@ -1900,7 +1900,7 @@ body.modal-open {
     width: 16px;
     height: 29px;
     transition: 0.25s;
-    background: url("https://sites.google.com/site/ngodoanduong91/download/home.svg") 0 -709px;
+    background: url("https://cdn.rawgit.com/net91/hosting/ndd/images/home.svg") 0 -709px;
 }
 .featherlight-next {
     right: 25px;
@@ -2087,7 +2087,7 @@ body.modal-open {
     width: 220px;
     height: 160px;
     position: relative;
-    background-image: url("https://sites.google.com/site/ngodoanduong91/download/home.svg");
+    background-image: url("https://cdn.rawgit.com/net91/hosting/ndd/images/home.svg");
 }
 .illustration-web {
     background-position: 8px 8px;
@@ -2833,7 +2833,7 @@ body.modal-open {
 }
 .contact-map {
     height: 100vw;
-    background: url("https://sites.google.com/site/ngodoanduong91/download/hanoi.png");
+    background: url("https://cdn.rawgit.com/net91/hosting/ndd/images/hanoi.png");
     background-size: cover;
     background-position: 45% center;
 }
@@ -2909,7 +2909,7 @@ body.modal-open {
     }
 }
 .error {
-    background: url("https://sites.google.com/site/ngodoanduong91/download/bruce.jpg");
+    background: url("https://cdn.rawgit.com/net91/hosting/ndd/images/bruce.jpg");
     background-size: cover;
     background-position: center center;
     color: #fff;
