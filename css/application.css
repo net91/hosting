@@ -860,16 +860,16 @@ a.text-1:hover {
 }
 .header-logo {
     margin-right: 5rem;
-    width: 34px;
-    min-width: 34px;
-    height: 34px;
+    width: 52px;
+    min-width: 52px;
+    height: 52px;
     display: inline-block;
     text-indent: -9999em;
     transform: scale(0.7);
     transform-origin: left center;
     filter: brightness(1);
     background: url("https://cdn.rawgit.com/net91/hosting/ba3769dbb8712ffb55cb7d08dfe29432e48b1c2e/images/logo.png") ;
-	background-size: 34px 34px;
+	background-size: 52px 52px;
 }
 .header-navigation {
     list-style-type: none;
@@ -1199,7 +1199,7 @@ a.text-1:hover {
     height: 16px;
     margin-left: -35px;
     top: 9px;
-    background: url(https://cdn.rawgit.com/net91/hosting/ndd/images/favicon-16x16.png) 0 0px;
+    background: url(https://cdn.rawgit.com/net91/hosting/ba3769dbb8712ffb55cb7d08dfe29432e48b1c2e/images/logo.png) 0 0px;
 }
 .footer-about .subline {
     color: rgba(255, 255, 255, 0.4);
