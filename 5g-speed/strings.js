@@ -16,7 +16,7 @@ const __en = {
 	"header.bandwidth":"Bandwidth",
 	"header.layers":"Layers",
 	"header.rowcaopts":"Carrier Options",
-	"header.rowcaopts":"Uplink Options",
+	"header.rowulopts":"Uplink Options",
 	"header.dllayers":"Downlink Layers",
 	"header.ullayers":"Uplink Layers",
 	"header.modulation":"Modulation",

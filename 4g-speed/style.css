@@ -16,7 +16,6 @@ select,button {
 	font-size:1.2em;
 	line-height:1.2em;
 	padding:5px;
-	width: calc(92% - 13px);
 }
 select,input[type="number"]{
 	margin:.5% 5%;
