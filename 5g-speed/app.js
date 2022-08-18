@@ -2006,6 +2006,7 @@ let s5g = {
 					el.append(
 						$("<label/>").text(_l["header.rowcaopts"]),
 						$("<button/>", {"class": "b_rmrow"}).text(_l["ux.remca"]).on("click enter", s5g.logic.removeCarrier),
+						$("<label/>").text(_l["header.rowulopts"]),
 						$("<button/>", {"class": "b_aggupl"}).text(_l["ux.aggupl"]).on("click enter", s5g.logic.aggregateUplink)
 					);
 				}

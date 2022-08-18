@@ -76,6 +76,9 @@ var strings = {
 		"label.setprim":"Set as Primary",
 		"label.sdl":"Downlink (SDL)",
 		"label.sul":"Uplink (SUL)",
+		"label.rowmimo":"Mimo Options",
+		"label.rowcaopts":"Carrier Options",
+		"label.rowulopts":"Uplink Options",
 		"msg.nofddopts":"No extra options for FDD bands",
 		"msg.nobandopts":"No options for this band type",
 		"ux.title":"4G Theoretical Throughput Calculator",
@@ -704,6 +707,7 @@ var generateMiMoSelector = function(caid){
 	}).append($("<span/>",{"class":"rowsectheader"}).text("MiMo"));;
 	
 	opts.append(
+		$("<label/>").text(_l["label.rowmimo"]),
 		$("<select/>",{
 			"title":"Select carrier MIMO",
 			"class":"rowopt_mimo",
@@ -729,6 +733,7 @@ var generateRowOptions = function(caid){
 	
 	// Every carrier should have this option
 	opts.append(
+		$("<label/>").text(_l["label.rowcaopts"]),
 		$("<button/>",{
 			"class":"b_rmrow",
 			"data-carrier":caid
@@ -738,6 +743,7 @@ var generateRowOptions = function(caid){
 	// Options for carriers that aren't the primary
 	if (caid !== primary){
 		opts.append(
+			$("<label/>").text(_l["label.rowulopts"]),
 			$("<button/>",{
 				"class":"b_aggupl",
 				"id":"rowbt_aggupl"+caid,

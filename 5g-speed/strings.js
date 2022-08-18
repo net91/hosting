@@ -16,6 +16,7 @@ const __en = {
 	"header.bandwidth":"Bandwidth",
 	"header.layers":"Layers",
 	"header.rowcaopts":"Carrier Options",
+	"header.rowcaopts":"Uplink Options",
 	"header.dllayers":"Downlink Layers",
 	"header.ullayers":"Uplink Layers",
 	"header.modulation":"Modulation",
@@ -43,11 +44,11 @@ const __en = {
 const __fr = {
 	"alert.selband":"Merci de choisir une bande",
 
-	"ux.aggupl":"Agrégat téléverser",
-	"ux.deaggupl":"Désagréger téléverser",
+	"ux.aggupl":"Agrï¿½gat tï¿½lï¿½verser",
+	"ux.deaggupl":"Dï¿½sagrï¿½ger tï¿½lï¿½verser",
 	"ux.remca":"Retirer la porteuse",
 	"ux.addca":"Ajouter une porteuse",
-	"ux.title":"Calculateur de débit théorique 5G"
+	"ux.title":"Calculateur de dï¿½bit thï¿½orique 5G"
 };
 
 const __es = {
@@ -55,12 +56,12 @@ const __es = {
 };
 
 const __de = {
-	"alert.selband":"Bitte wählen Sie ein Frequenzband",
+	"alert.selband":"Bitte wï¿½hlen Sie ein Frequenzband",
 
 	"ux.aggupl":"Aggregat Uplink",
 	"ux.deaggupl":"Disaggregieren Uplink",
-	"ux.remca":"Träger entfernen",
-	"ux.addca":"Träger hinzufügen",
+	"ux.remca":"Trï¿½ger entfernen",
+	"ux.addca":"Trï¿½ger hinzufï¿½gen",
 	"ux.title":"5G Theoretische Throughput-Rechner"
 };
 
