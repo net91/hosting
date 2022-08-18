@@ -70,8 +70,10 @@ var strings = {
 		"label.mod":"Modulation",
 		"label.dlmod":"Downlink Modulation",
 		"label.ulmod":"Uplink Modulation",
+		"label.mmimo":"Multiple Input and Multiple Output",
 		"label.aggupl":"Aggregate Uplink",
 		"label.deaggupl":"Deaggregate Uplink",
+		"label.remove":" ",
 		"label.remca":"Remove Carrier",
 		"label.setprim":"Set as Primary",
 		"label.sdl":"Downlink (SDL)",
@@ -107,8 +109,10 @@ var strings = {
 		"label.mod":"Modulation de Fréquence",
 		"label.dlmod":"Télécharger la modulation",
 		"label.ulmod":"Modulation de téléchargement",
+		"label.mmimo":"Multiple Input and Multiple Output",
 		"label.aggupl":"Agrégat téléverser",
 		"label.deaggupl":"Désagréger téléverser",
+		"label.remove":" ",
 		"label.remca":"Retirer la porteuse",
 		"label.setprim":"Définir comme porteuse principale",
 		"label.sdl":"Télécharger (SDL)",
@@ -144,8 +148,10 @@ var strings = {
 		"label.mod":"Modulation",
 		"label.dlmod":"Downlink Modulation",
 		"label.ulmod":"Uplink Modulation",
+		"label.mmimo":"Multiple Input and Multiple Output",
 		"label.aggupl":"Aggregat Uplink",
 		"label.deaggupl":"Disaggregieren Uplink",
+		"label.remove":" ",
 		"label.remca":"Träger entfernen" ,
 		"label.setprim":"Als primär festlegen",
 		"label.sdl":"Downlink (SDL)",
@@ -704,6 +710,7 @@ var generateMiMoSelector = function(caid){
 	}).append($("<span/>",{"class":"rowsectheader"}).text("MiMo"));;
 	
 	opts.append(
+		$("<label/>",{"for":"rowopt_dlmod" + caid,"id":"rowlabel_dlmod"+caid}).text(_l["label.mmimo"]),
 		$("<select/>",{
 			"title":"Select carrier MIMO",
 			"class":"rowopt_mimo",
@@ -729,6 +736,7 @@ var generateRowOptions = function(caid){
 	
 	// Every carrier should have this option
 	opts.append(
+		$("<label/>",{"for":"rowopt_dlmod" + caid,"id":"rowlabel_dlmod"+caid}).text(_l["label.remove"]),
 		$("<button/>",{
 			"class":"b_rmrow",
 			"data-carrier":caid
