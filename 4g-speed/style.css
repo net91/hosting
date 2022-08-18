@@ -1,5 +1,7 @@
 html{
 	min-height:100vh;
+	background-color:#1a1a1a;
+	color:#fff;
 	font-family:Helvetica, sans-serif;
 	font-weight:100;
 }
@@ -8,6 +10,8 @@ body{
 	padding:0;
 }
 select,button {
+	background:#1a1a1a;
+	color:#fff;
 	border:1.5px solid #ff7e22;
 	font-size:1.2em;
 	line-height:1.2em;
@@ -21,6 +25,8 @@ select,input[type="number"]{
 input[type="number"]{
 	-moz-appearance:textfield;
 	appearance:textfield;
+	background:#1a1a1a;
+	color:#fff;
 	border:1.5px solid #ff7e22;
 	font-size:1.2em;
 	line-height:1.2em;
@@ -87,13 +93,12 @@ h3 {
 	margin:1.5% 0;
 }
 #add_carrier{
+	width:100%;
 	line-height:2em;
 	font-size:2.2em;
 	text-align:center;
-	margin: 0 30px;
-	padding: 15px 20px 17px 20px;
 	background-color:#101010;
-	color:#fff; 
+	color:#fff;
 	cursor:pointer;
 	transition:color .2s ease-in-out, background-color .3s ease-in-out;
 }
